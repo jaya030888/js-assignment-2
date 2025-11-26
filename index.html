@@ -21,28 +21,28 @@
     <p id="para">HEllO</p>
 
     <script>
-        let a = Number(prompt("Enter your first number please😊:"));
-        let b = Number(prompt("Enter your second number please😊:"));
-        let op = prompt("Enter operator please😊:");
+        let a = Number(prompt("Enter your first number please😊:"));                       // taking first number from user as input
+        let b = Number(prompt("Enter your second number please😊:"));                      // taking second number from user as input
+        let op = prompt("Enter operator please😊:");                                       // taking operator from user as input
 
         if(op=="+"){
-            message=`Sum of ${a} and ${b} is ${a+b} 😊`
+            message=`Sum of ${a} and ${b} is ${a+b} 😊`                                    // if operator is "+" show summetion of two numbers on webpage
         }
 
         else if(op=="-"){
-            message=`Difference of ${a} and ${b} is ${a-b} 😊`
+            message=`Difference of ${a} and ${b} is ${a-b} 😊`                             // if operator is "-" show difference of two numbers on webpage
         }
 
         else if(op=="*"){
-            message=`Multiplication of ${a} and ${b} is ${a*b} 😊`
+            message=`Multiplication of ${a} and ${b} is ${a*b} 😊`                         // if operator is "*" multiplication of two numbers on webpage
         }
         
         else if(op=="/"){
-            message=`Quotient of ${a} and ${b} is ${a/b} 😊`
+            message=`Quotient of ${a} and ${b} is ${a/b} 😊`                                // if operator is "/" show quotient of two numbers on webpage
         }
 
         else{
-            message="Invalid Operator please Try Again 😊"
+            message="Invalid Operator please Try Again 😊"                                 // if any other operator
         }
 
         let output=document.getElementById("para");
@@ -50,4 +50,5 @@
     </script>
     
 </body>
+
 </html>
